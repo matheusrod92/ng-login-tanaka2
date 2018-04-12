@@ -1,0 +1,12 @@
+<form (submit)="tryRegister()">
+  <label for="email">
+    Email:
+    <input id="email" type="email" name="email" [(ngModel)]="email">
+  </label>
+  <label for="senha">
+    Senha:
+    <input id="senha" type="text" name="senha" [(ngModel)]="senha">
+  </label>
+  <button type="submit">Cadastrar</button>
+  <h1>Olá: {{ mensagem }}</h1>
+</form>
